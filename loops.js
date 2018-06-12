@@ -5,6 +5,7 @@ function forLoop(a){
     a.push(`I am ${i} strange loops.`)
   }
   return a
+<<<<<<< HEAD
 }
 
 var num = 5
@@ -25,4 +26,6 @@ function doWhileLoop(a){
     a.pop()
   } while (maybeTrue() && a.length > 0)
   return a
+=======
+>>>>>>> 7bbc628be98af0c36fe3703d0cad0e53ee8770d0
 }
